@@ -104,8 +104,8 @@ services:
     expose:
       - 27017
     volumes:
-      - wekan-db:/data/db
-      - wekan-db-dump:/dump
+      - /Users/jason/Documents/wekan/data:/data/db
+      - /Users/jason/Documents/wekan/dump:/dump
 
   wekan:
     #-------------------------------------------------------------------------------------
